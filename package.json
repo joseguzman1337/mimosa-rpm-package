@@ -25,10 +25,10 @@
     "underscore": "1.13.2",
     "mkdirp": "1.0.4",
     "rimraf": "3.0.2",
-    "lodash": "4.17.21",
+    "lodash": "4.17.23",
     "hogan.js": "3.0.2",
     "slash": "4.0.0",
-    "jszip": "3.7.1",
+    "jszip": "3.8.0",
     "wrench": "1.5.9"
   },
   "license": "MIT",
