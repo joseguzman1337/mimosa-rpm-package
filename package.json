@@ -1,0 +1,42 @@
+{
+  "name": "mimosa-rpm-package",
+  "version": "1.5.3",
+  "homepage": "https://github.com/fireeye/mimosa-rpm-package",
+  "author": "Drew Tayman",
+  "description": "RPM Packaging Module for Mimosa",
+  "contributors": [
+    {
+      "name": "Drew Tayman",
+      "email": "dretay@hotmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dretay/mimosa-rpm-package"
+  },
+  "keywords": [
+    "mimosa",
+    "module",
+    "express",
+    "package",
+    "packaging"
+  ],
+  "dependencies": {
+    "underscore": "1.13.8",
+    "mkdirp": "1.0.4",
+    "rimraf": "3.0.2",
+    "lodash": "4.17.23",
+    "hogan.js": "3.0.2",
+    "slash": "4.0.0",
+    "jszip": "3.8.0",
+    "wrench": "1.5.9"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.8"
+  },
+  "main": "./lib/index",
+  "scripts": {
+    "prepublish": "mimosa build"
+  }
+}
